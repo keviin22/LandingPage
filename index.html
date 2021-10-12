@@ -19,8 +19,8 @@
             <a class="name" href="/">Kevin Vanderlei</a>
             <ul class="nav-list">
                 <li><a href="/">Home</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Contato</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -35,23 +35,28 @@
             </p>
         </div>
         <div class="image">
-            <figure>
                 <img src="/kevin.jpg">
-            </figure>
         </div>
     </main>
     <!--Sobre-->
     <section>
-        <div class="about">
+        <div class="about" id="about">
             <h1>Sobre</h1>
-            <p>Aqui eu vou escrever algo sobre mim, que eu ainda não sei o que, mas no momento estou querendo terminar
-                essa landing-page, vou colocar também alguns icones e imagens aqui em baixo pra ficar mais bonito</p>
+            <p>Minha experiência profissional começou em 2015 na empresa Angra serviços, na mesma eu realizava serviços de portaria e atendimento de clientes. <br>
+            Na mesma, eu trabalhei até maio de 2017, quando começei a trabalhar para o shopping center uberaba e que é onde estou atualmente.<br>
+        No shopping uberaba realizo serviços de segurança e operações, como monitoramento através de câmeras de CFTV.<br>
+    No momento também estou estudando desenvolvimento web, para que em breve possa estar qualificado para atuar na área.</p>
+        </div>
+        <div class="image-about">
+                <img src="/angra.jpg">
+                <img src="/shoppinguberaba.png">
         </div>
     </section>
     <!--Contato-->
-    <section class="section2">
+    <section class="section2" id="contact">
         <div class="contact">
             <h1>Contato</h1>
+            <p>Me mande uma mensagem!</p>
         </div>
         <fieldset>
             <label for="name">Nome</label><br>
@@ -61,6 +66,7 @@
             <label for="message" class="message"></label><br>
             <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
         </fieldset>
+        <button class="button-send">Enviar</button>
     </section>
 </body>
 
